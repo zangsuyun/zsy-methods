@@ -235,7 +235,7 @@ export const shuffle = (arr: number[]) => arr.sort(() => Math.random() - 0.5);
 
 export const reverseString = (str: any) => [...str].reverse().join('');
 
-export const rgbToHex = (r: number, g: number, b: number) => ((r << 16) + (g << 8) + b).toString(16).padStart(6, '0');
+// export const rgbToHex = (r: number, g: number, b: number) => ((r << 16) + (g << 8) + b).toString(16).padStart(6, '0');
 
 export const sortCharactersInString = (str: string) =>
 
