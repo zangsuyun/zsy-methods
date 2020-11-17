@@ -20,10 +20,11 @@
     // "typeRoots": [
     //   "./node_modules/@types"
     // ],
-    // "lib": [
-    //   "dom",
-    //   "es2015"
-    // ],
+    "lib": [
+      "dom",
+      "es2015",
+      "es2015.promise"
+    ],
     // "jsx": "react",
     "allowJs": true
   },

@@ -22,6 +22,9 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: [
+          // {
+          //   loader: 'babel-loader',
+          // },
           {
             loader: 'ts-loader',
             options: {
@@ -32,6 +35,16 @@ module.exports = {
         ],
         exclude: /node_modules/,
       },
+      // {
+      //   test: /\.js$/,
+      //   exclude: /(node_modules|bower_components)/,
+      //   use: {
+      //     loader: 'babel-loader',
+      //     options: {
+      //       presets: ['@babel/preset-env']
+      //     }
+      //   }
+      // }
     ],
   },
   plugins: [
