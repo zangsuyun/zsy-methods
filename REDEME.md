@@ -138,5 +138,45 @@ getAllCombin([1,2,3,4],3,6,[2])  // [2, 1, 3]
 43. //金额处理
 //  disposeMoney(1523354)  // 1,523,354
 
+44. // 版本号处理函数
+// sortVersion(list)
+// sortVersion(['1.0.0','1.23.0','1.5','1.2.3.4.5','2.12.1','0.18.1','3.3.2'])
+//   ["0.18.1", "1.0.0", "1.2.3.4.5", "1.5", "1.23.0", "2.12.1", "3.3.2"]
 
+45. //组合函数
+// compose(functionA, functionB);
+
+46. //给定一个已按照升序排列 的有序数组，找到两个数使得它们相加之和等于目标数。函数应该返回这两个下标值 index1 和 index2，其中 index1 必须小于 index2。
+// twoSum([2, 7, 11, 15],9) //[1,2]
+
+47. // 判断是否是质数
+  //  isPrime(3)   // true
+
+48. // 获取离某个数最近的质数并返回
+  //  toPrime(32)   // 37
+
+49. // 判断一个给定的字符串是否是同构的。
+    // isIsomorphic("egg", 'add'); // true
+    // isIsomorphic("paper", 'title'); // true
+    // isIsomorphic("kick", 'side'); // false
+
+50. // 防抖函数
+// let counter = 1;
+// const debounceFn = debounce(() => {
+//     counter++;
+// }, 1000,false);
+
+// debounce(() => {
+//     counter++;
+// }, 1000,true);
+
+// debounceFn();
+// debounceFn();
+// debounceFn();
+
+51. // 获取数组中指定元素中最后一个的下标
+  // findLastIndex([1,2,3,4,5,6,2,3,4],3)  //2
+
+52. // 深度数组扁平化
+ // flattenDeep([1, [[2], [3, [4]], 5]])  // [1,2,3,4,5]
 ```

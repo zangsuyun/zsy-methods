@@ -1,8 +1,9 @@
 {
   "name": "zsy-methods",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "臧苏云的函数库",
   "files": [
+    "REDEME.md",
     "dist"
   ],
   "main": "dist/index.js",
